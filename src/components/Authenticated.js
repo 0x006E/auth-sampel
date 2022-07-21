@@ -11,7 +11,7 @@ function Authenticated() {
   return (
     <div className="text-2xl font-bold">
       You are now authenticated
-      <pre className="text-xs font-normal">
+      <pre className="text-xs font-normal overflow-hidden break-all whitespace-pre-wrap">
         {JSON.stringify(user.providerData, null, 2)}
       </pre>
       <Button
