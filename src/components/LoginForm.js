@@ -79,7 +79,7 @@ function LoginForm() {
       <Button onClick={handleLoginWithGoogle}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="inline w-4 h-4 mr-3 text-gray-900 fill-current"
+          className="inline w-4 h-4 mr-3 text-gray-900 fill-current"
           viewBox="0 0 48 48"
           width="48px"
           height="48px"
