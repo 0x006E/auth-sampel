@@ -13,6 +13,7 @@ function App() {
   return (
     <SnackbarProvider>
       <Layout>
+        <span className="w-80 h-80 none"></span>
         <div className="bg-white p-8 flex flex-col w-full shadow-xl rounded-xl">
           <BrowserRouter>
             <Routes>
